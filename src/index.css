@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@600&display=swap');
 ::-webkit-scrollbar {
     width:12px;
     background-color:#e05c1f;
@@ -15,4 +15,17 @@
 ::-webkit-scrollbar-thumb {
     background: #c7c4ce;
     border-radius: 10px;
+}
+
+.swal2-confirm ,.swal2-styled{
+    background: #e05c1f;
+}
+
+.swal2-popup, .swal2-modal, .swal2-show{
+    /* font-family: "Noto Sans Arabic", sans-serif !important; */
+    border-radius: 30px;
+    max-width:320px ;
+    font-size: 20px;
+    background: #818181;
+    color: white;
 }

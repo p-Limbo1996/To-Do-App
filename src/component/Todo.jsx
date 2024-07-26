@@ -4,6 +4,7 @@ import TodoItems from "./TodoItems";
 import logo from "../assets/images/logo1.png";
 import Swal from 'sweetalert2'
 
+
 const Todo = () => {
 
 
@@ -33,7 +34,12 @@ useEffect(()=>{
   const AddHandler = (e) => {
     const inputText = inputRef.current.value.trim();
     if (inputText === "") {
-      alert("لطفا یک متن وارد کنید");
+      
+      Swal.fire({
+        text: '😉 لطفا یک متن وارد کنید',
+        icon: 'danger',
+        confirmButtonText: ': ) باشه'
+      })
       return null;
     }
     const mydate = () => {
@@ -96,7 +102,7 @@ useEffect(()=>{
     <div className="logo o w-full fixed top-0 " >
         <img className="rounded-full p-5 w-[200px] mx-auto block"  src={logo} alt="" />
     </div>
-    <div className="bg-white rounded-xl place-self-center w-11/12 max-w-xl p-7 flex flex-col  h-[600px] mt-28  overflow-auto ">
+    <div className="bg-white rounded-xl place-self-center w-11/12 max-w-xl p-7 flex flex-col  h-[580px] mt-28  overflow-auto ">
       {/* ------------title---------- */}
       <p className="text-right text-gray-400 " >{formattedTime}</p>
       <div className="flex items-center  mt-7 gap-2">
