@@ -59,21 +59,21 @@ useEffect(()=>{
   };
   const delHandler = (id) => {
     Swal.fire({
-      title: "Are you sure?",
-      
+      title: "مطمعنی ؟؟ 🙂",
       icon: "warning",
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "Yes, delete it!"
+      cancelButtonText: "نه",
+      confirmButtonText: "آره پاکش کن "
     }).then((result) => {
       if (result.isConfirmed) {
         setItems((prvitems)=>{
           return prvitems.filter((item) => item.id !== id)
         })
         Swal.fire({
-          title: "Deleted!",
-          text: "Your task has been deleted.",
+    
+          text: "پاک شد",
           icon: "success",
          timerProgressBar: true,
           timer: 1000,
