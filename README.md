@@ -26,7 +26,7 @@ Check out the live version of the To-Do App here: [To-Do App](https://p-limbo199
 
 ## 🖼️ Screenshots
 
-![To-Do App Screenshot](./src/assets/images/p-limbo1996.github.io_To-Do-App.png)
+![To-Do App Screenshot](./src/assets/images/p-limbo1996.github.io_To-Do-App_.png)
 
 ## 📦 Installation
 
