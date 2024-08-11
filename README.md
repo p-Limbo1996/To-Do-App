@@ -63,10 +63,6 @@ To run this project locally, follow these steps:
 
 If you would like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](https://github.com/p-Limbo1996/To-Do-App/blob/main/LICENSE). Feel free to use it for your own projects.
-
 ## ✉️ Contact
 
 For any inquiries, you can reach me via [email](pooria.q.1996@gmail.com) .
